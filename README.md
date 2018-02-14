@@ -1,2 +1,24 @@
 # Gauss-Jacobi
-Método de Gaus Jacobi para resolução de sistemas lineares
+Método de Gaus Jacobi para resolução de sistemas lineares.
+
+# Funções:
+gauss_jacobi(n, A, b, p, maxI)
+
+Tamanho da matriz nxn.
+Matriz de equações A.
+Matriz resposta B.
+Precisão para parada p.
+Máximo de iterações maxI.
+
+# Exemplo de uso.
+Entrada: 
+A = [ [6.0, 0.0, -3.0, 0.0, 0.0],
+      [3.0, -3.0, 0.0, 0.0, 0.0],
+      [0.0, -1.0, 9.0, 0.0, 0.0],
+      [0.0, 1.0, 8.0, -11.0, 2.0],
+      [3.0, 1.0, 0.0, 0.0, -4.0]
+     ]
+b = [50.0, 0.0, 160.0, 0.0, 0.0]
+
+Chamada da função:
+gauss_jacobi(5, A, b, 0.001, 500)
